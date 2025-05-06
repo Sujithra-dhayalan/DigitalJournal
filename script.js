@@ -59,7 +59,7 @@ function addEnvelope(entry){
     var envelope = document.createElement("div");
     envelope.classList.add("display");
     envelope.innerHTML = `<h2>Date: ${entry.date}
-                          <img src="/JournalProject/assets/envelope.jpeg" alt="envelope" class="envelope">`;
+                          <img src="/assets/envelope.jpeg" alt="envelope" class="envelope">`;
     envelope.addEventListener("click",function(){
         displayEntry(entry);
     });
